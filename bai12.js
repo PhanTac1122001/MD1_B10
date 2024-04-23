@@ -61,3 +61,27 @@ let dienTichHinhTron=Math.PI*r**2;
 alert("Chu Vi Hình Tròn:"+chuViHinhTron)
 
 alert("Diện tích Hình Tròn:"+dienTichHinhTron)
+
+let ab = 5;
+let bc= 5;
+console.log(ab==bc);  console.log(ab===bc);
+console.log(ab!=bc);  console.log(ab!==bc);
+
+let ad=6;
+let result= ++ad + ad + ad++ + ++ad + ad;
+console.log(result);
+
+
+console.log(0 || NaN ||"Rikkei Academy"||null);
+console.log(null || NaN || false || null);
+console.log(undefined || 1 || 5 || null);
+console.log("" || null || 5 || NaN);
+console.log(1 || null || 12|| NaN);
+
+
+
+console.log(0 && 1 && "Rikkei Academy" &&null);
+console.log(2 && NaN && false && null);
+console.log(3 && 1 && 5 && null);
+console.log("1" && undefined && 5 && NaN);
+console.log(1 && null && 12&& NaN);
